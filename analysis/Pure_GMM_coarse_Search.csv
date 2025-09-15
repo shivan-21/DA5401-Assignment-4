@@ -1,0 +1,10 @@
+ratio,n_generated,val_f1,best_threshold,test_precision,test_recall,test_f1,clf
+0.01,1504,0.8050314465408805,0.34600000000000003,0.7155172413793104,0.8469387755102041,0.7757009345794392,"LogisticRegression(C=10, max_iter=5000, penalty='l1', random_state=42,
+                   solver='liblinear')"
+0.05,8783,0.7974683544303798,0.8160000000000001,0.7033898305084746,0.8469387755102041,0.7685185185185185,"LogisticRegression(C=10, max_iter=5000, penalty='l1', random_state=42,
+                   solver='liblinear')"
+0.1,17881,0.802547770700637,0.88,0.7033898305084746,0.8469387755102041,0.7685185185185185,"LogisticRegression(C=0.01, max_iter=5000, random_state=42, solver='liblinear')"
+0.25,45175,0.7662337662337663,0.989,0.6991150442477876,0.8061224489795918,0.7488151658767772,"LogisticRegression(C=1, max_iter=5000, random_state=42, solver='liblinear')"
+0.5,90665,0.7329192546583851,0.994,0.6637931034482759,0.7857142857142857,0.719626168224299,"LogisticRegression(C=10, max_iter=5000, penalty='l1', random_state=42,
+                   solver='liblinear')"
+1.0,181646,0.6783625730994152,0.995,0.5661764705882353,0.7857142857142857,0.6581196581196581,"LogisticRegression(C=0.01, max_iter=5000, random_state=42, solver='liblinear')"
